@@ -1,0 +1,108 @@
+{
+  "slug": "seat-of-the-triumvirate",
+  "name": "Seat of the Triumvirate",
+  "expansion": "Midnight",
+  "season": "Mythic+ Season 1",
+  "location": "Argus revisit (Timeways)",
+  "tagline": "Void oozes, wolf council bombs, tentacle gates, and L'ura beam notes.",
+  "bosses": [
+    {
+      "id": "zuraal",
+      "name": "Zuraal the Ascended",
+      "order": 1,
+      "summary": "Stop Coalesced Void reaching boss; Crashing Void knockback away from sludge; Decimate drops pools.",
+      "abilities": [
+        { "name": "Coalesced Void", "note": "CC or kill before touch — else wipe.", "role": "all" },
+        { "name": "Oozing Slam", "note": "Raid DoT — healer CDs.", "role": "healer" },
+        { "name": "Void Slash", "note": "Tankbuster.", "role": "tank" }
+      ],
+      "tips": ["Null Palm dodge.", "Knockback check positioning before Crashing Void."],
+      "loot": [
+        { "slot": "Staff", "name": "Umbral Spire of Zuraal", "stats": "Mastery/Crit" },
+        { "slot": "Leather Head", "name": "Voidlashed Hood", "stats": "Crit/Haste" },
+        { "slot": "Plate Chest", "name": "Breastplate of the Dark Touch", "stats": "Mastery/Haste" },
+        { "slot": "Cloth Hands", "name": "Handwraps of the Ascended", "stats": "Crit/Mastery" },
+        { "slot": "Mail Boots", "name": "Void-Coated Stompers", "stats": "Haste/Mastery" },
+        { "slot": "Ring", "name": "Eredath Seal of Nobility", "stats": "Vers/Crit" },
+        { "slot": "Trinket", "name": "Ampoule of Pure Void", "stats": "Agi/Str" }
+      ]
+    },
+    {
+      "id": "saprish",
+      "name": "Saprish",
+      "order": 2,
+      "summary": "Council: interrupt Shadewing Dread Screech; detonate Void Bombs with Overload before Umbral Nova.",
+      "abilities": [
+        { "name": "Void Bombs", "note": "Overload clears bombs — soak stragglers with defensives.", "role": "all" },
+        { "name": "Umbral Nova", "note": "Wipe if bombs remain.", "role": "all" },
+        { "name": "Rending Void", "note": "Tank mitigation.", "role": "tank" }
+      ],
+      "tips": ["Stack bosses for cleave.", "Healer: Shadow Pounce bleed on Darkfang target."],
+      "loot": [
+        { "slot": "Wand", "name": "Wand of Saprish's Gaze", "stats": "Crit/Vers" },
+        { "slot": "Cloth Head", "name": "Shadow-Weaver's Crown", "stats": "Mastery/Crit" },
+        { "slot": "Mail Shoulders", "name": "Pauldrons of the Void Hunter", "stats": "Haste/Mastery" },
+        { "slot": "Cloth Chest", "name": "Voidbender Robe", "stats": "Crit/Haste" },
+        { "slot": "Mail Wrist", "name": "Darkfang Scale Wristguards", "stats": "Crit/Mastery" },
+        { "slot": "Leather Hands", "name": "Gloves of the Dark Shroud", "stats": "Haste/Crit" },
+        { "slot": "Plate Waist", "name": "Girdle of the Shadowguard", "stats": "Mastery/Haste" },
+        { "slot": "Plate Boots", "name": "Trap Jammers", "stats": "Vers/Mastery" }
+      ]
+    },
+    {
+      "id": "viceroy-nezhar",
+      "name": "Viceroy Nezhar",
+      "order": 3,
+      "summary": "Kill Umbral Tentacles before Collapsing Void; dodge Umbral Waves during Gates of the Abyss.",
+      "abilities": [
+        { "name": "Umbral Tentacles", "note": "Priority before Collapsing Void knockback.", "role": "all" },
+        { "name": "Gates of the Abyss", "note": "Wave dodge + defensives if clipped.", "role": "all" },
+        { "name": "Mass Void Infusion", "note": "Raid burst — healer CD.", "role": "healer" }
+      ],
+      "tips": ["Kick Mind Blast.", "Tank positions boss near tentacle spawns."],
+      "loot": [
+        { "slot": "Fist Weapon", "name": "Grips of the Dark Viceroy", "stats": "Mastery/Vers" },
+        { "slot": "Off-Hand", "name": "Nezhar's Netherclaw", "stats": "Crit/Mastery" },
+        { "slot": "Plate Head", "name": "Crown of the Dark Envoy", "stats": "Crit/Mastery" },
+        { "slot": "Neck", "name": "Necklace of the Twisting Void", "stats": "Haste/Vers" },
+        { "slot": "Mail Chest", "name": "Void-Linked Robe", "stats": "Mastery/Vers" },
+        { "slot": "Cloth Wrist", "name": "Entropic Wristwraps", "stats": "Mastery/Haste" },
+        { "slot": "Plate Hands", "name": "Voidclaw Gauntlets", "stats": "Haste/Vers" },
+        { "slot": "Leather Boots", "name": "Footpads of Seeping Dread", "stats": "Vers/Mastery" },
+        { "slot": "Trinket", "name": "Reality Breacher", "stats": "Int" }
+      ]
+    },
+    {
+      "id": "lura",
+      "name": "L'ura",
+      "order": 4,
+      "summary": "Discordant Beam breaks Notes of Despair; Siphon Void damage amp; Anguish stacks ramp healing.",
+      "abilities": [
+        { "name": "Discordant Beam", "note": "Aim through Notes — breaks them; players must survive beam.", "role": "all" },
+        { "name": "Anguish", "note": "Stacking ambient damage — big HPS check.", "role": "healer" },
+        { "name": "Abyssal Lance", "note": "Tankbuster.", "role": "tank" }
+      ],
+      "tips": ["Top group before each beam line-up.", "Disintegrate dodge."],
+      "loot": [
+        { "slot": "1H Mace", "name": "Scepter of the Endless Night", "stats": "Haste/Crit" },
+        { "slot": "Leather Shoulder", "name": "Twilight's Edge Spaulders", "stats": "Crit/Mastery" },
+        { "slot": "Leather Chest", "name": "Vest of the Void's Embrace", "stats": "Crit/Vers" },
+        { "slot": "Plate Wrist", "name": "Vambraces of Lost Hope", "stats": "Haste/Crit" },
+        { "slot": "Mail Hands", "name": "Void-Touched Grips", "stats": "Vers/Mastery" },
+        { "slot": "Cloth Boots", "name": "Slippers of Growing Despair", "stats": "Vers/Haste" },
+        { "slot": "Trinket", "name": "Echo of L'ura", "stats": "Int" }
+      ]
+    }
+  ],
+  "dangerousPacks": [
+    {
+      "id": "triumvirate-trash",
+      "name": "Void-touched patrols",
+      "area": "Corridors",
+      "why": "Multiple legacy Argus mechanics — kicks and dispels.",
+      "handling": ["Refer to IV trash bullets per pack type."],
+      "beforeBossId": "start",
+      "pullOrder": 0
+    }
+  ]
+}

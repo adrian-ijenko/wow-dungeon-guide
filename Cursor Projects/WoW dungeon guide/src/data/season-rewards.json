@@ -1,0 +1,109 @@
+{
+  "seasonName": "Midnight — Mythic+ Season 1",
+  "expansion": "Midnight",
+  "notes": [
+    "Mythic+ unlocked the week of March 24, 2026 (after the March 17, 2026 season start).",
+    "Great Vault dungeon slots still follow the usual 1 / 4 / 8 completed runs model; reward quality follows your keys that week (lowest key in a bracket matters for multi-slot unlocks).",
+    "End-of-run ilevel stops scaling after +10 — higher keys mainly add Dawncrests.",
+    "Upgrade NPCs: Cuzolth (~48.3, 61.7) and Vaskarn for crest exchange in Silvermoon City (Icy Veins)."
+  ],
+  "sources": [
+    {
+      "label": "Method.gg — Midnight Season 1 dungeon, raid & Great Vault rewards",
+      "url": "https://www.method.gg/guides/midnight-season-1-dungeon-raid-and-great-vault-rewards"
+    },
+    {
+      "label": "Icy Veins — Midnight Mythic+ Season 1 guide",
+      "url": "https://www.icy-veins.com/wow/midnight-mythic-season-1-guide"
+    }
+  ],
+  "keyLevelRewards": [
+    {
+      "keyLabel": "Mythic 0",
+      "endOfRun": { "track": "Champion 1/6", "itemLevel": 246 },
+      "greatVault": { "track": "Champion 4/6", "itemLevel": 256 },
+      "crestsEndOfRun": "— (Mythic 0 uses weekly lockout; see in-game)"
+    },
+    {
+      "keyLabel": "+2 / +3",
+      "endOfRun": { "track": "Champion 2/6", "itemLevel": 250 },
+      "greatVault": { "track": "Hero 1/6", "itemLevel": 259 },
+      "crestsEndOfRun": "10 Hero Dawncrest (+2) / 12 Hero Dawncrest (+3)"
+    },
+    {
+      "keyLabel": "+4",
+      "endOfRun": { "track": "Champion 3/6", "itemLevel": 253 },
+      "greatVault": { "track": "Hero 2/6", "itemLevel": 263 },
+      "crestsEndOfRun": "14 Hero Dawncrest"
+    },
+    {
+      "keyLabel": "+5",
+      "endOfRun": { "track": "Champion 4/6", "itemLevel": 256 },
+      "greatVault": { "track": "Hero 2/6", "itemLevel": 263 },
+      "crestsEndOfRun": "16 Hero Dawncrest"
+    },
+    {
+      "keyLabel": "+6",
+      "endOfRun": { "track": "Hero 1/6", "itemLevel": 259 },
+      "greatVault": { "track": "Hero 3/6", "itemLevel": 266 },
+      "crestsEndOfRun": "18 Hero Dawncrest"
+    },
+    {
+      "keyLabel": "+7",
+      "endOfRun": { "track": "Hero 1/6", "itemLevel": 259 },
+      "greatVault": { "track": "Hero 4/6", "itemLevel": 269 },
+      "crestsEndOfRun": "10 Myth Dawncrest"
+    },
+    {
+      "keyLabel": "+8 / +9",
+      "endOfRun": { "track": "Hero 2/6", "itemLevel": 263 },
+      "greatVault": { "track": "Hero 4/6", "itemLevel": 269 },
+      "crestsEndOfRun": "12 Myth Dawncrest (+8) / 14 Myth Dawncrest (+9)"
+    },
+    {
+      "keyLabel": "+10+",
+      "endOfRun": { "track": "Hero 3/6", "itemLevel": 266 },
+      "greatVault": { "track": "Myth 1/6", "itemLevel": 272 },
+      "crestsEndOfRun": "16 Myth Dawncrest (+10) — up to 20 at +12"
+    }
+  ],
+  "crestsPerCompletedKey": [
+    { "keyLevel": 2, "crestType": "Hero Dawncrest", "amount": 10 },
+    { "keyLevel": 3, "crestType": "Hero Dawncrest", "amount": 12 },
+    { "keyLevel": 4, "crestType": "Hero Dawncrest", "amount": 14 },
+    { "keyLevel": 5, "crestType": "Hero Dawncrest", "amount": 16 },
+    { "keyLevel": 6, "crestType": "Hero Dawncrest", "amount": 18 },
+    { "keyLevel": 7, "crestType": "Myth Dawncrest", "amount": 10 },
+    { "keyLevel": 8, "crestType": "Myth Dawncrest", "amount": 12 },
+    { "keyLevel": 9, "crestType": "Myth Dawncrest", "amount": 14 },
+    { "keyLevel": 10, "crestType": "Myth Dawncrest", "amount": 16 },
+    { "keyLevel": 11, "crestType": "Myth Dawncrest", "amount": 18 },
+    { "keyLevel": 12, "crestType": "Myth Dawncrest", "amount": 20 }
+  ],
+  "upgradeTracks": {
+    "champion": [
+      { "trackLevel": "1/6", "itemLevel": 246 },
+      { "trackLevel": "2/6", "itemLevel": 250 },
+      { "trackLevel": "3/6", "itemLevel": 253 },
+      { "trackLevel": "4/6", "itemLevel": 256 },
+      { "trackLevel": "5/6", "itemLevel": 259 },
+      { "trackLevel": "6/6", "itemLevel": 263 }
+    ],
+    "hero": [
+      { "trackLevel": "1/6", "itemLevel": 259 },
+      { "trackLevel": "2/6", "itemLevel": 263 },
+      { "trackLevel": "3/6", "itemLevel": 266 },
+      { "trackLevel": "4/6", "itemLevel": 269 },
+      { "trackLevel": "5/6", "itemLevel": 272 },
+      { "trackLevel": "6/6", "itemLevel": 276 }
+    ],
+    "myth": [
+      { "trackLevel": "1/6", "itemLevel": 272 },
+      { "trackLevel": "2/6", "itemLevel": 276 },
+      { "trackLevel": "3/6", "itemLevel": 279 },
+      { "trackLevel": "4/6", "itemLevel": 282 },
+      { "trackLevel": "5/6", "itemLevel": 285 },
+      { "trackLevel": "6/6", "itemLevel": 289 }
+    ]
+  }
+}

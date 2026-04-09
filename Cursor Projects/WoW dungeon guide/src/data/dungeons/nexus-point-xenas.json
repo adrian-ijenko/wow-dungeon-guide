@@ -1,0 +1,92 @@
+{
+  "slug": "nexus-point-xenas",
+  "name": "Nexus-Point Xenas",
+  "expansion": "Midnight",
+  "season": "Mythic+ Season 1",
+  "location": "Voidstorm",
+  "tagline": "Leyline hazards, Null Vanguard adds, and Lothraxion's Divine Guile shade game.",
+  "bosses": [
+    {
+      "id": "kasreth",
+      "name": "Chief Corewright Kasreth",
+      "order": 1,
+      "summary": "Never cross active Leyline Arrays; Reflux Charge breaks arrays; Corespark Detonation raid damage.",
+      "abilities": [
+        { "name": "Leyline Array", "note": "Lines are lethal — path carefully.", "role": "all" },
+        { "name": "Corespark Detonation", "note": "Outrange blast; Sparkburn on raid after.", "role": "healer" },
+        { "name": "Reflux Charge", "note": "Charged player breaks arrays for team.", "role": "all" }
+      ],
+      "tips": ["Interrupt Arcane Zap.", "Tank positions boss near arrays for melee charge uptime."],
+      "loot": [
+        { "slot": "Staff", "name": "Corespark Multitool", "stats": "Mastery/Haste" },
+        { "slot": "Shield", "name": "Reflux Reflector", "stats": "Vers/Crit" },
+        { "slot": "Back", "name": "Fluxweave Cloak", "stats": "Mastery/Vers" },
+        { "slot": "Plate Wrist", "name": "Kasreth's Bindings", "stats": "Vers/Crit" },
+        { "slot": "Leather Hands", "name": "Corewright's Zappers", "stats": "Haste/Vers" },
+        { "slot": "Cloth Legs", "name": "Leyline Leggings", "stats": "Crit/Vers" }
+      ]
+    },
+    {
+      "id": "nysarra",
+      "name": "Corewarden Nysarra",
+      "order": 2,
+      "summary": "Kill Dreadflail + Grand Nullifier during Null Vanguard; burn boss in Lightscar Flare (+300% damage taken).",
+      "abilities": [
+        { "name": "Null Vanguard", "note": "Adds must die before Lightscar Flare.", "role": "all" },
+        { "name": "Lightscar Flare", "note": "Raid damage + boss massive vuln — pump CDs.", "role": "all" },
+        { "name": "Umbral Lash", "note": "Tankbuster + Void Gash DoT.", "role": "tank" }
+      ],
+      "tips": ["Save offensive CDs for Flare windows.", "Watch Eclipsing Step positioning."],
+      "loot": [
+        { "slot": "1H Mace", "name": "Dreadflail Bludgeon", "stats": "Vers/Crit" },
+        { "slot": "Cloth Shoulder", "name": "Nysarra's Mantle", "stats": "Haste/Mastery" },
+        { "slot": "Mail Wrist", "name": "Corewarden Cuffs", "stats": "Mastery/Vers" },
+        { "slot": "Plate Legs", "name": "Lightscarred Cuisses", "stats": "Vers/Haste" },
+        { "slot": "Leather Feet", "name": "Eclipse Espadrilles", "stats": "Vers/Haste" },
+        { "slot": "Ring", "name": "Omission of Light", "stats": "Haste/Mastery" },
+        { "slot": "Trinket", "name": "Whisper of the Duskwraith", "stats": "Int" }
+      ]
+    },
+    {
+      "id": "lothraxion",
+      "name": "Lothraxion",
+      "order": 3,
+      "summary": "Brilliant Dispersion DoT + Fractured Image knockback; Divine Guile — interrupt the real Lothraxion (has horns).",
+      "abilities": [
+        { "name": "Divine Guile", "note": "Find horned copy; wrong kick = Core Exposure nuke.", "role": "all" },
+        { "name": "Brilliant Dispersion", "note": "Defensive for DoT; dodge Fractured Image.", "role": "all" },
+        { "name": "Searing Rend", "note": "Tank CD each cast.", "role": "tank" }
+      ],
+      "tips": ["Call 'horns up' for the true shade.", "Holy Echo from Flarebat trash — outrange explosion."],
+      "loot": [
+        { "slot": "Dagger", "name": "Radiant Slicer", "stats": "Haste/Vers" },
+        { "slot": "Plate Shoulder", "name": "Searing Spaulders", "stats": "Crit/Haste" },
+        { "slot": "Leather Chest", "name": "Maledict Vest", "stats": "Haste/Mastery" },
+        { "slot": "Cloth Hands", "name": "Fractured Fingerguards", "stats": "Crit/Vers" },
+        { "slot": "Mail Legs", "name": "Greaves of the Divine Guile", "stats": "Mastery/Crit" },
+        { "slot": "Ring", "name": "Occlusion of Void", "stats": "Crit/Haste" },
+        { "slot": "Trinket", "name": "Mark of Light", "stats": "Str" }
+      ]
+    }
+  ],
+  "dangerousPacks": [
+    {
+      "id": "circuit-seer",
+      "name": "Circuit Seer",
+      "area": "Opening halls",
+      "why": "Arcing Mana ramps group debuff; Erratic Surge shots.",
+      "handling": ["Focus Seer first; personal during Arcing Mana."],
+      "beforeBossId": "start",
+      "pullOrder": 0
+    },
+    {
+      "id": "flux-engineer",
+      "name": "Flux Engineer + Mana Battery",
+      "area": "Kasreth path",
+      "why": "Battery explodes if not killed after engineer dies.",
+      "handling": ["Switch to Mana Battery immediately."],
+      "beforeBossId": "nysarra",
+      "pullOrder": 0
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "windrunner-spire",
+  "name": "Windrunner Spire",
+  "expansion": "Midnight",
+  "season": "Mythic+ Season 1",
+  "location": "Eversong Woods",
+  "tagline": "Windrunner family grief made manifest — firebirds, a duo wipe check, and a stormy finale.",
+  "bosses": [
+    {
+      "id": "emberdawn",
+      "name": "Emberdawn",
+      "order": 1,
+      "summary": "Territorial firebird: drop Flaming Updraft in corners, dodge twisters during Burning Gale, and respect Searing Beak.",
+      "abilities": [
+        { "name": "Flaming Updraft", "note": "Soak debuff near walls — eases twister dodging during Burning Gale.", "role": "all" },
+        { "name": "Burning Gale / Fire Breath", "note": "Heavy movement phase — save defensives for breath overlap.", "role": "all" },
+        { "name": "Searing Beak", "note": "Tankbuster — major cooldowns.", "role": "tank" }
+      ],
+      "tips": ["Tank corners the boss for maximum safe floor.", "Healer: CD for every Burning Gale."],
+      "loot": [
+        { "slot": "2H Sword", "name": "Emberdawn Defender", "stats": "Mastery/Vers" },
+        { "slot": "Staff", "name": "Roostwarden's Bough", "stats": "Mastery/Crit" },
+        { "slot": "Cloth Head", "name": "Brambledawn Halo", "stats": "Crit/Mastery" },
+        { "slot": "Mail Wrist", "name": "Amberfrond Bracers", "stats": "Mastery/Crit" },
+        { "slot": "Plate Hands", "name": "Embergrove Grasps", "stats": "Crit/Haste" },
+        { "slot": "Leather Waist", "name": "Snapvine Cinch", "stats": "Crit/Mastery" },
+        { "slot": "Trinket", "name": "Emberwing Feather", "stats": "Agi/Int" }
+      ]
+    },
+    {
+      "id": "derelict-duo",
+      "name": "Derelict Duo (Kalis & Latch)",
+      "order": 2,
+      "summary": "Twin-boss kill: use Latch's Heaving Yank to stop Debilitating Shriek; kill both together or Broken Bond enrages.",
+      "abilities": [
+        { "name": "Broken Bond", "note": "Letting one boss die first enrages the other — balance DPS.", "role": "all" },
+        { "name": "Splattering Spew", "note": "Places Gunk Splatter — defensives + healer CDs.", "role": "all" },
+        { "name": "Curse of Darkness", "note": "Spawns Dark Entity — dispel, outrange, or CC.", "role": "all" }
+      ],
+      "tips": ["Interrupt Kalis Shadow Bolt; hook Shriek with Yank.", "Tank: stack for cleave; mitigate Bone Hack."],
+      "loot": [
+        { "slot": "1H Mace", "name": "Excavating Cudgel", "stats": "Crit/Mastery" },
+        { "slot": "Cloth Shoulder", "name": "Mantle of Dark Devotion", "stats": "Mastery/Crit" },
+        { "slot": "Plate Waist", "name": "Riphook Defender", "stats": "Haste/Crit" },
+        { "slot": "Leather Legs", "name": "Legwraps of Lingering Legacies", "stats": "Haste/Crit" },
+        { "slot": "Mail Boots", "name": "Whipcoil Sabatons", "stats": "Crit/Mastery" },
+        { "slot": "Trinket", "name": "Latch's Crooked Hook", "stats": "Agi/Str" }
+      ]
+    },
+    {
+      "id": "commander-kroluk",
+      "name": "Commander Kroluk",
+      "order": 3,
+      "summary": "Orcish war memories: bait Reckless Leap, stack for Intimidating Shout, and burn adds during Rallying Bellow.",
+      "abilities": [
+        { "name": "Rallying Bellow", "note": "At 66% / 33% — huge damage, adds, boss takes less damage during Bladestorm.", "role": "all" },
+        { "name": "Reckless Leap → Falling Rubble", "note": "Furthest player soaks leap; dodge puddles.", "role": "all" },
+        { "name": "Rampage", "note": "Tank lethal window — externals.", "role": "tank" }
+      ],
+      "tips": ["Stack in Shout; don't scatter into fear.", "Kill adds to end defensive phase."],
+      "loot": [
+        { "slot": "1H Axe", "name": "Warworn Cleaver", "stats": "Crit/Vers" },
+        { "slot": "Leather Shoulder", "name": "Fallen Grunt's Mantle", "stats": "Mastery/Haste" },
+        { "slot": "Mail Hands", "name": "Grips of Forgotten Honor", "stats": "Mastery/Haste" },
+        { "slot": "Cloth Legs", "name": "Commander's Faded Breeches", "stats": "Vers/Mastery" },
+        { "slot": "Plate Boots", "name": "Sabatons of Furious Revenge", "stats": "Crit/Vers" },
+        { "slot": "Trinket", "name": "Kroluk's Warbanner", "stats": "Agi/Str" }
+      ]
+    },
+    {
+      "id": "the-restless-heart",
+      "name": "The Restless Heart",
+      "order": 4,
+      "summary": "Wind and arrows: clear Squall Leap with Turbulent Arrows, surf Billowing Wind, and manage Bolt Gale.",
+      "abilities": [
+        { "name": "Squall Leap", "note": "Grab Turbulent Arrows to clear stacks before lethal ramp.", "role": "all" },
+        { "name": "Billowing Wind", "note": "Use arrows to jump waves — positioning puzzle.", "role": "all" },
+        { "name": "Tempest Slash", "note": "Tank mitigation rotation.", "role": "tank" }
+      ],
+      "tips": ["Pre-plan who takes priority arrows on high keys.", "Healer tracks stack count for CD timing."],
+      "loot": [
+        { "slot": "Bow", "name": "Hurricane's Heart", "stats": "Crit/Haste" },
+        { "slot": "Off-hand", "name": "Sigil of the Restless Heart", "stats": "Crit/Vers" },
+        { "slot": "Plate Head", "name": "Fletcher's Faded Faceplate", "stats": "Haste/Vers" },
+        { "slot": "Neck", "name": "Pendant of Aching Grief", "stats": "Vers/Haste" },
+        { "slot": "Mail Shoulder", "name": "Spaulders of Arrow's Flight", "stats": "Crit/Mastery" },
+        { "slot": "Leather Chest", "name": "Vest of the Howling Gale", "stats": "Crit/Mastery" },
+        { "slot": "Trinket", "name": "Heart of Wind", "stats": "Int, Agi, Str" }
+      ]
+    }
+  ],
+  "dangerousPacks": [
+    {
+      "id": "spellguard-magus",
+      "name": "Spellguard Magus packs",
+      "area": "Opening gardens",
+      "why": "Arcane Salvo + Spellguard's Protection bubble.",
+      "handling": ["Knock mobs out of protection sphere; interrupt Spirit Bolt on Steward."],
+      "beforeBossId": "start",
+      "pullOrder": 0
+    },
+    {
+      "id": "devoted-woebringer",
+      "name": "Devoted Woebringer",
+      "area": "Before Derelict Duo",
+      "why": "Pulsing Shriek absorb pulses the group until broken.",
+      "handling": ["Focus Woebringer; spare kicks on Shadow Bolt."],
+      "beforeBossId": "derelict-duo",
+      "pullOrder": 0
+    }
+  ]
+}

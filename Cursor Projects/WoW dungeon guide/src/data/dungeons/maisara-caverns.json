@@ -1,0 +1,92 @@
+{
+  "slug": "maisara-caverns",
+  "name": "Maisara Caverns",
+  "expansion": "Midnight",
+  "season": "Mythic+ Season 1",
+  "location": "Zul'Aman",
+  "tagline": "Vilebranch necromancy — simultaneous duo kill, phantom puzzles, and soul-bloated Rak'tul.",
+  "bosses": [
+    {
+      "id": "murojin-nekraxx",
+      "name": "Muro'jin & Nekraxx",
+      "order": 1,
+      "summary": "Kill together; Carrion Swoop into Freezing Trap; dodge Fetid Quillstorm.",
+      "abilities": [
+        { "name": "Simultaneous kill", "note": "Nekraxx Bestial Wrath / Muro'jin Revive Pet if one dies first.", "role": "all" },
+        { "name": "Carrion Swoop", "note": "Kite into trap; avoid clipping party with eagle path.", "role": "all" },
+        { "name": "Infected Pinions", "note": "Disease + Barrage — healer CDs.", "role": "healer" }
+      ],
+      "tips": ["Tank stacks bosses; mitigate Flanking Spear."],
+      "loot": [
+        { "slot": "Polearm", "name": "Traitor's Talon", "stats": "Haste/Crit" },
+        { "slot": "Bow", "name": "Deceiver's Rotbow", "stats": "Mastery/Haste" },
+        { "slot": "Mail Shoulder", "name": "Reanimator's Weight", "stats": "Vers/Mastery" },
+        { "slot": "Plate Wrist", "name": "Trollhunter's Bands", "stats": "Mastery/Haste" },
+        { "slot": "Leather Waist", "name": "Falconer's Cinch", "stats": "Haste/Vers" },
+        { "slot": "Cloth Boots", "name": "Nightprey Stalkers", "stats": "Crit/Vers" }
+      ]
+    },
+    {
+      "id": "vordaza",
+      "name": "Vordaza",
+      "order": 2,
+      "summary": "Unstable Phantoms collide to clear; control Lingering Dread stacks; break Deathshroud in Necrotic Convergence.",
+      "abilities": [
+        { "name": "Final Pursuit / phantoms", "note": "Collide ghosts — max ~2 Lingering Dread; dodge Veiled pools.", "role": "all" },
+        { "name": "Necrotic Convergence", "note": "Deathshroud shield + Coalesced Death orbs — burn shield fast.", "role": "all" },
+        { "name": "Drain Soul", "note": "Tankbuster.", "role": "tank" }
+      ],
+      "tips": ["Heavy rot healing — pace CDs for Convergence.", "Unmake frontal dodge."],
+      "loot": [
+        { "slot": "Dagger", "name": "Ceremonial Hexblade", "stats": "Haste/Crit" },
+        { "slot": "Leather Shoulder", "name": "Enthralled Bonespines", "stats": "Haste/Mastery" },
+        { "slot": "Back", "name": "Soulhunter's Mask", "stats": "Vers/Crit" },
+        { "slot": "Cloth Hands", "name": "Vilehex Bonds", "stats": "Crit/Haste" },
+        { "slot": "Mail Legs", "name": "Wickedweave Trousers", "stats": "Crit/Mastery" },
+        { "slot": "Plate Boots", "name": "Footwraps of Ill-Fate", "stats": "Haste/Mastery" },
+        { "slot": "Trinket", "name": "Soulcatcher's Charm", "stats": "Int" }
+      ]
+    },
+    {
+      "id": "raktul",
+      "name": "Rak'tul, Vessel of Souls",
+      "order": 3,
+      "summary": "Group for Crush Souls + Soulbind Totem cleave; interrupt Malignant Soul during Soulrending Roar for Spectral Residue.",
+      "abilities": [
+        { "name": "Crush Souls", "note": "Three targets stack near totem for cleave.", "role": "all" },
+        { "name": "Soulrending Roar", "note": "Kick/CC Malignant Souls for Residue buff.", "role": "all" },
+        { "name": "Spiritbreaker", "note": "Tank leap leaves Spectral Decay — move boss thoughtfully.", "role": "tank" }
+      ],
+      "tips": ["Deathgorged Vessel = healer major CD.", "Volatile Essence dodge."],
+      "loot": [
+        { "slot": "2H Sword", "name": "Liferipper's Cutlass", "stats": "Mastery/Crit" },
+        { "slot": "Fist Weapon", "name": "Berserker's Hexclaws", "stats": "Vers/Crit" },
+        { "slot": "1H Axe", "name": "Soulblight Cleaver", "stats": "Crit/Mastery" },
+        { "slot": "Leather Head", "name": "Fetid Vilecrown", "stats": "Crit/Vers" },
+        { "slot": "Plate Shoulder", "name": "Amalgamation's Harness", "stats": "Mastery/Haste" },
+        { "slot": "Mail Chest", "name": "Decaying Cuirass", "stats": "Mastery/Crit" },
+        { "slot": "Trinket", "name": "Vessel of Tortured Souls", "stats": "Mastery" }
+      ]
+    }
+  ],
+  "dangerousPacks": [
+    {
+      "id": "hulking-juggernaut",
+      "name": "Hulking Juggernaut",
+      "area": "Entry tunnels",
+      "why": "Deafening Roar spell-locks the group mid-cast.",
+      "handling": ["Stop casts before Roar; stun Juggernaut if needed."],
+      "beforeBossId": "start",
+      "pullOrder": 0
+    },
+    {
+      "id": "bramblemaw-bear",
+      "name": "Multiple Bramblemaw Bears",
+      "area": "Before Muro'jin",
+      "why": "Crunch Armor stacks crush tanks.",
+      "handling": ["Split bears; kite or CC one."],
+      "beforeBossId": "murojin-nekraxx",
+      "pullOrder": 0
+    }
+  ]
+}

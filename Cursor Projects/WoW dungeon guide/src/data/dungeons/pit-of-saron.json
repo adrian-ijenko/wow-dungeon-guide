@@ -1,0 +1,95 @@
+{
+  "slug": "pit-of-saron",
+  "name": "Pit of Saron",
+  "expansion": "Midnight",
+  "season": "Mythic+ Season 1",
+  "location": "Icecrown (Timeways)",
+  "tagline": "Saronite logistics, plague duo with shared health, and Tyrannus's undead army phase.",
+  "bosses": [
+    {
+      "id": "forgemaster-garfrost",
+      "name": "Forgemaster Garfrost",
+      "order": 1,
+      "summary": "Stack Saronite chunks for Orebreaker; hide behind chunks during Glacial Overload; Cryostomp dispel cadence.",
+      "abilities": [
+        { "name": "Throw Saronite", "note": "Place chunks clustered for efficient Orebreaker.", "role": "all" },
+        { "name": "Glacial Overload", "note": "LOS behind chunk — stacks kill past ~3.", "role": "all" },
+        { "name": "Cryostomp", "note": "Raid damage + Cryoshards — dispel priority.", "role": "healer" }
+      ],
+      "tips": ["Siphoning Chill aura = constant pressure.", "Tank: break correct chunk count with Orebreaker."],
+      "loot": [
+        { "slot": "2H Mace", "name": "Garfrost's Two-Ton Hammer", "stats": "Crit/Haste" },
+        { "slot": "Dagger", "name": "Surgeon's Needle", "stats": "Crit/Vers" },
+        { "slot": "Neck", "name": "Barbed Ymirheim Choker", "stats": "Crit/Haste" },
+        { "slot": "Plate Shoulder", "name": "Shoulderplates of Frozen Blood", "stats": "Mastery/Crit" },
+        { "slot": "Mail Shoulder", "name": "Spurned Val'kyr Shoulderguards", "stats": "Crit/Haste" },
+        { "slot": "Leather Waist", "name": "Flayer's Black Belt", "stats": "Haste/Crit" },
+        { "slot": "Cloth Boots", "name": "Ice-Steeped Sandals", "stats": "Crit/Haste" }
+      ]
+    },
+    {
+      "id": "ick-krick",
+      "name": "Ick & Krick",
+      "order": 2,
+      "summary": "Shared health (Necrolink); dodge Plague Globs; kill Shades on Shade Shift; kick Death Bolt.",
+      "abilities": [
+        { "name": "Plague Globs / Blight", "note": "Sidestep pools; tank avoids Blight Smash in slime.", "role": "all" },
+        { "name": "Shade Shift", "note": "Focus shades; interrupt Shadowbind (curse/dispel).", "role": "all" },
+        { "name": "Lumbering Fixation", "note": "Kite away from boss melee.", "role": "all" }
+      ],
+      "tips": ["Keep Ick and Krick stacked for cleave.", "Healer: Shadow Lance + Plague Expulsion."],
+      "loot": [
+        { "slot": "Dagger", "name": "Krick's Beetle Stabber", "stats": "Haste/Crit" },
+        { "slot": "Leather Wrist", "name": "Chewed Leather Wristguards", "stats": "Crit/Haste" },
+        { "slot": "Cloth Wrist", "name": "Wristguards of Subterranean Moss", "stats": "Haste/Vers" },
+        { "slot": "Plate Waist", "name": "Bent Gold Belt", "stats": "Crit/Haste" },
+        { "slot": "Cloth Waist", "name": "Braid of Salt and Fire", "stats": "Haste/Vers" },
+        { "slot": "Mail Waist", "name": "Scabrous Zombie Leather Belt", "stats": "Crit/Haste" },
+        { "slot": "Ring", "name": "Purloined Wedding Ring", "stats": "Crit/Haste" },
+        { "slot": "Trinket", "name": "Rotting Globule", "stats": "Agi/Str" }
+      ]
+    },
+    {
+      "id": "scourgelord-tyrannus",
+      "name": "Scourgelord Tyrannus",
+      "order": 3,
+      "summary": "Drop Rime Blast on bone piles for easier Army; interrupt Scourge Plaguespreader; dodge Death's Grasp.",
+      "abilities": [
+        { "name": "Army of the Dead", "note": "Focus Plaguespreader; use infused piles from Rime Blast.", "role": "all" },
+        { "name": "Bone Infusion", "note": "Raid damage — healer CDs.", "role": "healer" },
+        { "name": "Scourgelord's Brand / Reckoning", "note": "Tank cooldowns; avoid Reckoning swing.", "role": "tank" }
+      ],
+      "tips": ["Pre-spread Rime strategically on piles.", "Ice Barrage dodge during army."],
+      "loot": [
+        { "slot": "Gun", "name": "Rimebane Rifle", "stats": "Haste/Mastery" },
+        { "slot": "Mail Head", "name": "Horns of the Spurned Val'kyr", "stats": "Haste/Crit" },
+        { "slot": "Plate Head", "name": "Skeleton Lord's Cranium", "stats": "Haste/Crit" },
+        { "slot": "Back", "name": "Cloak of the Fallen Cardinal", "stats": "Vers/Crit" },
+        { "slot": "Plate Chest", "name": "Frost Wyrm Ribcage", "stats": "Crit/Haste" },
+        { "slot": "Cloth Chest", "name": "Palebone Robes", "stats": "Haste/Crit" },
+        { "slot": "Leather Legs", "name": "Shaggy Wyrmleather Leggings", "stats": "Mastery/Haste" },
+        { "slot": "Trinket", "name": "Nevermelting Ice Crystal", "stats": "Int" }
+      ]
+    }
+  ],
+  "dangerousPacks": [
+    {
+      "id": "ymirjar-graveblade",
+      "name": "Ymirjar Graveblade",
+      "area": "Before Garfrost",
+      "why": "Frostbane Slash tank killer + Dark Rupture pools.",
+      "handling": ["Pull small; tank CDs per Slash."],
+      "beforeBossId": "forgemaster-garfrost",
+      "pullOrder": 0
+    },
+    {
+      "id": "dreadpulse-lich",
+      "name": "Dreadpulse Lich",
+      "area": "Quarry",
+      "why": "Icy Blast must be kicked; Torrent of Misery at 50% Dread Pulse.",
+      "handling": ["Hard assign kick; drop combat on Torrent if needed."],
+      "beforeBossId": "scourgelord-tyrannus",
+      "pullOrder": 0
+    }
+  ]
+}

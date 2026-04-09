@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-display: "Cinzel", ui-serif, Georgia, serif;
+  --font-family-body: "Source Sans 3", system-ui, sans-serif;
+
+  --color-void-950: #0c0a12;
+  --color-void-900: #12101c;
+  --color-void-850: #18152a;
+  --color-void-800: #1f1b32;
+  --color-void-700: #2a2540;
+  --color-gold-400: #e8c547;
+  --color-gold-500: #c9a227;
+  --color-gold-600: #a68520;
+  --color-ember: #c45c3e;
+  --color-frost: #6eb8d4;
+  --color-arcane: #a78bfa;
+  --color-parchment: #e8e0d4;
+  --color-parchment-dim: #b8a99a;
+}
+
+@layer base {
+  html {
+    @apply antialiased scroll-smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-void-950 text-parchment text-[15px] leading-relaxed;
+    font-family: var(--font-family-body);
+    background-image:
+      radial-gradient(ellipse 120% 80% at 50% -20%, rgba(201, 162, 39, 0.08), transparent 55%),
+      radial-gradient(ellipse 60% 40% at 100% 50%, rgba(110, 184, 212, 0.04), transparent 50%),
+      linear-gradient(180deg, var(--color-void-900) 0%, var(--color-void-950) 100%);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    @apply bg-gold-500/30 text-parchment;
+  }
+}

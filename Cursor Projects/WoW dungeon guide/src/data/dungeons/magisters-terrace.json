@@ -1,0 +1,103 @@
+{
+  "slug": "magisters-terrace",
+  "name": "Magisters' Terrace",
+  "expansion": "Midnight",
+  "season": "Mythic+ Season 1",
+  "location": "Isle of Quel'Danas, Eversong Woods",
+  "tagline": "Arcane law, Spellbreaker duels, void twins, and Degentrius volleyball.",
+  "bosses": [
+    {
+      "id": "arcanotron-custos",
+      "name": "Arcanotron Custos",
+      "order": 1,
+      "summary": "Soak Energy Orbs during Refueling Protocol; dispel Ethereal Shackles; dodge Arcane Expulsion residue.",
+      "abilities": [
+        { "name": "Refueling Protocol", "note": "Soak orbs before boss eats them; Unstable Energy stacks hurt.", "role": "all" },
+        { "name": "Arcane Expulsion", "note": "Knockback + floor pools — don't stand in residue.", "role": "all" },
+        { "name": "Repulsing Slam", "note": "Tankbuster.", "role": "tank" }
+      ],
+      "tips": ["Library tome: +5% haste Arcane Empowerment buff.", "Healer: mass dispel Shackles."],
+      "loot": [
+        { "slot": "1H Mace", "name": "Malfeasance Mallet", "stats": "Mastery/Haste" },
+        { "slot": "Plate Chest", "name": "Arcane Guardian's Shell", "stats": "Vers/Crit" },
+        { "slot": "Leather Wrist", "name": "Custodial Cuffs", "stats": "Vers/Haste" },
+        { "slot": "Cloth Waist", "name": "Clasp of Compliance", "stats": "Vers/Haste" },
+        { "slot": "Mail Legs", "name": "Leggings of Orderly Conduct", "stats": "Vers/Mastery" },
+        { "slot": "Trinket", "name": "Refueling Orb", "stats": "Int" }
+      ]
+    },
+    {
+      "id": "seranel-sunlash",
+      "name": "Seranel Sunlash",
+      "order": 2,
+      "summary": "Runic Mark → Suppression Zone for Feedback; silence dodge on Wave of Silence; purge Hastening Ward.",
+      "abilities": [
+        { "name": "Runic Mark", "note": "Enter zone for Feedback; dodge barrage after.", "role": "all" },
+        { "name": "Wave of Silence", "note": "Hide under Suppression Zone before cast ends.", "role": "all" },
+        { "name": "Hastening Ward", "note": "Purge or tank CDs through boss enrage-speed.", "role": "tank" }
+      ],
+      "tips": ["Null Reaction stacks make dodging harder — reset cleanly."],
+      "loot": [
+        { "slot": "Warglaives", "name": "Resolute Runeglaive", "stats": "Mastery/Vers" },
+        { "slot": "Shield", "name": "Ward of the Spellbreaker", "stats": "Mastery/Crit" },
+        { "slot": "Leather Head", "name": "Spellsnap Shadowmask", "stats": "Mastery/Crit" },
+        { "slot": "Back", "name": "Defiant Defender's Drape", "stats": "Haste/Crit" },
+        { "slot": "Cloth Wrist", "name": "Wraps of Watchful Wrath", "stats": "Mastery/Vers" },
+        { "slot": "Mail Waist", "name": "Sunlash's Sunsash", "stats": "Vers/Haste" },
+        { "slot": "Plate Boots", "name": "Oathsworn Stompers", "stats": "Vers/Mastery" }
+      ]
+    },
+    {
+      "id": "gemellus",
+      "name": "Gemellus",
+      "order": 3,
+      "summary": "Triplicate clones share health; Neural Link hug correct copy; dodge Cosmic Radiation during Astral Grasp.",
+      "abilities": [
+        { "name": "Triplicate", "note": "Cleaving all copies speeds kill; spawns at 100% and 50%.", "role": "all" },
+        { "name": "Neural Link", "note": "Stack true copy to drop shield.", "role": "all" },
+        { "name": "Astral Grasp", "note": "Move fast — Cosmic Radiation melee aura.", "role": "all" }
+      ],
+      "tips": ["Tank gathers clones for AoE.", "Healer: Cosmic Sting → Void Secretions follow-up."],
+      "loot": [
+        { "slot": "Dagger", "name": "Splitshroud Stinger", "stats": "Crit/Haste" },
+        { "slot": "Mail Chest", "name": "Voidwarped Oozemail", "stats": "Vers/Mastery" },
+        { "slot": "Leather Hands", "name": "Gloves of Viscous Goo", "stats": "Mastery/Crit" },
+        { "slot": "Plate Waist", "name": "Shadowsplit Girdle", "stats": "Vers/Haste" },
+        { "slot": "Ring", "name": "Bifurcation Band", "stats": "Mastery/Haste" },
+        { "slot": "Trinket", "name": "Jelly Replicator", "stats": "Agi/Str" }
+      ]
+    },
+    {
+      "id": "degentrius",
+      "name": "Degentrius",
+      "order": 4,
+      "summary": "Unstable Energy orb passing — miss = Void Destruction stacks; avoid Void Torrent pizza lines.",
+      "abilities": [
+        { "name": "Unstable Energy volleyball", "note": "Each player covers a slice; dropping orb stacks raid wipe debuff.", "role": "all" },
+        { "name": "Devouring Entropy", "note": "Heavy healing phase.", "role": "healer" },
+        { "name": "Hulking Fragment", "note": "Tank aim away from raid; Umbral Splinters leave ichor.", "role": "tank" }
+      ],
+      "tips": ["Pre-assign clock spots for orb.", "Personal defensives when soaking multiple essences."],
+      "loot": [
+        { "slot": "2H Axe", "name": "Whirling Voidcleaver", "stats": "Haste/Mastery" },
+        { "slot": "1H Sword", "name": "Shadowslash Slicer", "stats": "Haste/Mastery" },
+        { "slot": "Mail Head", "name": "Vortex Visage", "stats": "Mastery/Crit" },
+        { "slot": "Cloth Chest", "name": "Wraps of Umbral Descent", "stats": "Vers/Crit" },
+        { "slot": "Plate Legs", "name": "Legplates of Lingering Dusk", "stats": "Mastery/Crit" },
+        { "slot": "Leather Boots", "name": "Domanaar's Dire Treads", "stats": "Mastery/Vers" },
+        { "slot": "Trinket", "name": "Eye of the Drowning Void", "stats": "Int/Agi" }
+      ]
+    }
+  ],
+  "dangerousPacks": [
+    {
+      "id": "terrace-trash",
+      "name": "Arcane law trash",
+      "area": "Hallways",
+      "why": "Rule-breaker mechanics vary by mob type — read nameplates.",
+      "handling": ["Use IV dungeon guide trash section per pull."],
+      "beforeBossId": "start",
+      "pullOrder": 0
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "algethar-academy",
+  "name": "Algeth'ar Academy",
+  "expansion": "Midnight",
+  "season": "Mythic+ Season 1",
+  "location": "Timeways (Dragonflight revisit)",
+  "tagline": "Pick one Dragonflight pledge pin, clear the Quad bosses in any order, then Echo of Doragosa.",
+  "bosses": [
+    {
+      "id": "overgrown-ancient",
+      "name": "Overgrown Ancient",
+      "order": 1,
+      "summary": "Kill lashers to engage; stack Germinate; kill Ancient Branch during Abundance to clear Splinterbark bleeds.",
+      "abilities": [
+        { "name": "Burst Forth", "note": "Awakens Hungry Lashers — tank snap threat; poison on lashers.", "role": "tank" },
+        { "name": "Ancient Branch", "note": "Kick Healing Touch; time Abundance when lashers are low.", "role": "all" },
+        { "name": "Barkbreaker", "note": "Tank mitigation.", "role": "tank" }
+      ],
+      "tips": ["Aggravated Skitterfly: enrage dispel / hard CC.", "Branch Out dodge."],
+      "loot": [
+        { "slot": "2H Axe", "name": "Algeth'ar Hedgecleaver", "stats": "Str, Mastery/Vers" },
+        { "slot": "Mail Feet", "name": "Boots of Explosive Growth", "stats": "Crit/Haste" },
+        { "slot": "Cloth Hands", "name": "Experimental Safety Gloves", "stats": "Vers/Crit" },
+        { "slot": "Leather Wrist", "name": "Frenzyroot Cuffs", "stats": "Haste/Mastery" },
+        { "slot": "Warglaive", "name": "Mystakra's Harvester", "stats": "Vers/Crit" },
+        { "slot": "Back", "name": "Potion-Stained Cloak", "stats": "Haste/Vers" }
+      ]
+    },
+    {
+      "id": "crawth",
+      "name": "Crawth",
+      "order": 2,
+      "summary": "Score Play Ball goals — Searing Blaze adds fire patches; Rushing Winds adds cyclones; Deafening Screech hurts.",
+      "abilities": [
+        { "name": "Goals", "note": "75% / 45% — choose order of fire vs wind goals; both active late.", "role": "all" },
+        { "name": "Overpowering Gust", "note": "Frontal dodge.", "role": "all" },
+        { "name": "Deafening Screech", "note": "Raid damage — healer CD.", "role": "healer" }
+      ],
+      "tips": ["Guardian Sentry mini-boss before arena.", "Call goal order in route."],
+      "loot": [
+        { "slot": "Mail Waist", "name": "Azure Belt of Competition", "stats": "Vers/Mastery" },
+        { "slot": "Cloth Chest", "name": "Bronze Challenger's Robe", "stats": "Mastery/Crit" },
+        { "slot": "Trinket", "name": "Dragon Games Equipment", "stats": "Str" },
+        { "slot": "Trinket", "name": "Emerald Coach's Whistle", "stats": "Int" },
+        { "slot": "Staff", "name": "Obsidian Goaltending Spire", "stats": "Agi, Crit/Vers" },
+        { "slot": "Leather Hands", "name": "Ruby Contestant's Gloves", "stats": "Vers/Mastery" }
+      ]
+    },
+    {
+      "id": "vexamus",
+      "name": "Vexamus",
+      "order": 3,
+      "summary": "Soak Arcane Orbs before boss; Mana Bombs on three players; Arcane Fissure at 100 energy.",
+      "abilities": [
+        { "name": "Arcane Orbs", "note": "Each soak adds Oversurge — rotate soakers.", "role": "all" },
+        { "name": "Mana Bombs", "note": "DoT on three — heal quickly.", "role": "healer" },
+        { "name": "Arcane Fissure", "note": "Big pulse + pushback — plan defensives.", "role": "all" }
+      ],
+      "tips": ["Arcane Expulsion frontal away from team.", "Avoid Corrupted Mana pools."],
+      "loot": [
+        { "slot": "Finger", "name": "Platinum Star Band", "stats": "Crit/Mastery" },
+        { "slot": "1H Sword", "name": "Spellbane Cutlass", "stats": "Str, Haste/Vers" },
+        { "slot": "1H Sword", "name": "Spellboon Saber", "stats": "Int, Haste/Mastery" },
+        { "slot": "Off-Hand", "name": "Vexamus' Expulsion Rod", "stats": "Crit/Haste" }
+      ]
+    },
+    {
+      "id": "echo-of-doragosa",
+      "name": "Echo of Doragosa",
+      "order": 4,
+      "summary": "Overwhelming Power: 3 stacks spawn Arcane Rift — balance haste vs floor space; Energy Bomb and Power Vacuum.",
+      "abilities": [
+        { "name": "Overwhelming Power", "note": "3 stacks = forced Arcane Rift — don't greed.", "role": "all" },
+        { "name": "Power Vacuum", "note": "Run out immediately.", "role": "all" },
+        { "name": "Astral Breath", "note": "At 100 energy — tank + raid pressure.", "role": "tank" }
+      ],
+      "tips": ["Tank corner boss to conserve space.", "Spawn rifts deliberately in dead zones."],
+      "loot": [
+        { "slot": "Trinket", "name": "Algeth'ar Puzzle Box", "stats": "Agi/Str" },
+        { "slot": "Plate Chest", "name": "Breastplate of Proven Knowledge", "stats": "Vers/Crit" },
+        { "slot": "Staff", "name": "Final Grade", "stats": "Int, Mastery/Haste" },
+        { "slot": "Cloth Head", "name": "Organized Pontificator's Mask", "stats": "Crit/Haste" },
+        { "slot": "Mail Shoulder", "name": "Scaled Commencement Spaulders", "stats": "Mastery/Crit" },
+        { "slot": "Plate Legs", "name": "Venerated Professor's Greaves", "stats": "Vers/Crit" }
+      ]
+    }
+  ],
+  "dangerousPacks": [
+    {
+      "id": "spellbound-scepter",
+      "name": "Spellbound Scepter",
+      "area": "Vexamus wing",
+      "why": "Mystic Blast — CC or burn.",
+      "handling": ["Hard CC Scepter; interrupt Textbook Monotonous Lecture."],
+      "beforeBossId": "vexamus",
+      "pullOrder": 0
+    },
+    {
+      "id": "arcane-ravager",
+      "name": "Arcane Ravager",
+      "area": "Vexamus wing",
+      "why": "Riftbreath frontal + Vicious Ambush on furthest player.",
+      "handling": ["Ranged bait charge; dodge breath."],
+      "beforeBossId": "vexamus",
+      "pullOrder": 1
+    }
+  ]
+}

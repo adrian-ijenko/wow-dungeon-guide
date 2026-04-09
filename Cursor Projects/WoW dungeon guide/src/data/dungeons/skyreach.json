@@ -1,0 +1,114 @@
+{
+  "slug": "skyreach",
+  "name": "Skyreach",
+  "expansion": "Midnight",
+  "season": "Mythic+ Season 1",
+  "location": "Spires of Arak (Timeways)",
+  "tagline": "Wind chakrams, solar soaking, phoenix adds, and a lens flare finale.",
+  "bosses": [
+    {
+      "id": "ranjit",
+      "name": "Ranjit",
+      "order": 1,
+      "summary": "Wind Chakram one-shots — tank drags boss away from return path; Fan of Blades bleed; Gale Surge knockback.",
+      "abilities": [
+        { "name": "Wind Chakram", "note": "Ranged lethal — tank reposition so melee never eat return.", "role": "tank" },
+        { "name": "Fan of Blades", "note": "Bleed raid — healer CD.", "role": "healer" },
+        { "name": "Gale Surge / Chakram Vortex", "note": "Knockback + orb dodge.", "role": "all" }
+      ],
+      "tips": ["Watch platform edges on trash knockbacks."],
+      "loot": [
+        { "slot": "2H Sword", "name": "Chakram-Breaker Greatsword", "stats": "Mastery/Vers" },
+        { "slot": "1H Sword", "name": "Skybreaker's Blade", "stats": "Mastery/Crit" },
+        { "slot": "Crossbow", "name": "Stormshaper's Crossbow", "stats": "Vers/Crit" },
+        { "slot": "Back", "name": "Rigid Scale Greatcloak", "stats": "Crit/Mastery" },
+        { "slot": "Cloth Legs", "name": "Legwraps of Swirling Light", "stats": "Haste/Vers" }
+      ]
+    },
+    {
+      "id": "araknath",
+      "name": "Araknath",
+      "order": 2,
+      "summary": "Soak solar beams to prevent Energize stacks; Supernova raid damage; Fiery Smash frontal.",
+      "abilities": [
+        { "name": "Solar beams", "note": "Assign soakers with defensives; boss gains stacks if beams hit him.", "role": "all" },
+        { "name": "Supernova", "note": "Group nuke — heal + personals.", "role": "healer" },
+        { "name": "Fiery Smash", "note": "Tank aim away from raid.", "role": "tank" }
+      ],
+      "tips": ["Tank stays in melee to prevent Blast Wave."],
+      "loot": [
+        { "slot": "Staff", "name": "Spire of the Furious Construct", "stats": "Haste/Mastery" },
+        { "slot": "Dagger", "name": "Edge of the Burning Sun", "stats": "Haste/Mastery" },
+        { "slot": "Plate Head", "name": "Gutcrusher Greathelm", "stats": "Mastery/Vers" },
+        { "slot": "Cloth Shoulder", "name": "Lightbinder Shoulderguards", "stats": "Haste/Mastery" },
+        { "slot": "Mail Chest", "name": "Sharpeye Chestguard", "stats": "Crit/Haste" },
+        { "slot": "Leather Boots", "name": "Boots of Burning Focus", "stats": "Crit/Mastery" },
+        { "slot": "Trinket", "name": "Solar Core Igniter", "stats": "Agi/Str" }
+      ]
+    },
+    {
+      "id": "rukhran",
+      "name": "Rukhran",
+      "order": 3,
+      "summary": "Stack for Sunwing spawns; CC Burning Pursuit; never hatch Smoldering Egg with new Sunwing.",
+      "abilities": [
+        { "name": "Sunbreak / Sunwing", "note": "Spawn near boss for cleave; kill before egg overlap.", "role": "all" },
+        { "name": "Searing Quills", "note": "LOS the cast.", "role": "all" },
+        { "name": "Burning Claws", "note": "Tank mitigation.", "role": "tank" }
+      ],
+      "tips": ["Healer CDs during Sunbreak pulse.", "Mark eggs after kills."],
+      "loot": [
+        { "slot": "1H Sword", "name": "Beakbreaker Scimitar", "stats": "Crit/Vers" },
+        { "slot": "Fist Weapon", "name": "Blazing Sunclaws", "stats": "Mastery/Haste" },
+        { "slot": "Off-Hand", "name": "Rukhran's Solar Reliquary", "stats": "Mastery/Haste" },
+        { "slot": "Leather Shoulder", "name": "Bloodfeather Mantle", "stats": "Mastery/Vers" },
+        { "slot": "Cloth Wrist", "name": "Bracers of Blazing Light", "stats": "Mastery/Vers" },
+        { "slot": "Plate Hands", "name": "Incarnadine Gauntlets", "stats": "Crit/Mastery" },
+        { "slot": "Mail Boots", "name": "Rigid Scale Boots", "stats": "Mastery/Vers" },
+        { "slot": "Trinket", "name": "Radiant Sunstone", "stats": "Int" }
+      ]
+    },
+    {
+      "id": "high-sage-viryx",
+      "name": "High Sage Viryx",
+      "order": 4,
+      "summary": "Kick Solar Blast; Lens Flare kiting; burn Cast Down add fast.",
+      "abilities": [
+        { "name": "Cast Down", "note": "Swap to guardian add immediately.", "role": "all" },
+        { "name": "Lens Flare", "note": "Drop Blazing Ground away from team.", "role": "all" },
+        { "name": "Scorching Ray", "note": "Channel damage — healer CD.", "role": "healer" }
+      ],
+      "tips": ["Tank pulls boss near Cast Down target for cleave.", "Interrupt Solar Blast."],
+      "loot": [
+        { "slot": "Polearm", "name": "Sunlance of Viryx", "stats": "Crit/Haste" },
+        { "slot": "Fist Weapon", "name": "Arcanic of the High Sage", "stats": "Crit/Haste" },
+        { "slot": "Shield", "name": "Viryx's Indomitable Bulwark", "stats": "Crit/Mastery" },
+        { "slot": "Mail Head", "name": "Sharpeye Gleam", "stats": "Crit/Mastery" },
+        { "slot": "Plate Shoulder", "name": "Spaulders of Scorching Ray", "stats": "Mastery/Haste" },
+        { "slot": "Leather Chest", "name": "Bloodfeather Chestguard", "stats": "Haste/Mastery" },
+        { "slot": "Cloth Feet", "name": "Lightbinder Treads", "stats": "Haste/Mastery" },
+        { "slot": "Trinket", "name": "Solarflare Prism", "stats": "Agi/Str" }
+      ]
+    }
+  ],
+  "dangerousPacks": [
+    {
+      "id": "dread-raven",
+      "name": "Dread Raven",
+      "area": "Platforms",
+      "why": "Dread Wind can knock players off the edge.",
+      "handling": ["Face away from cliff; grip/save players."],
+      "beforeBossId": "start",
+      "pullOrder": 0
+    },
+    {
+      "id": "adorned-bladetalon",
+      "name": "Adorned Bladetalon",
+      "area": "Before Viryx",
+      "why": "Shear stacking bleed melts tanks.",
+      "handling": ["Pull solo; full defensives; slow the pack."],
+      "beforeBossId": "high-sage-viryx",
+      "pullOrder": 0
+    }
+  ]
+}
